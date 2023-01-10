@@ -1,9 +1,26 @@
 using System;
-
-class Program
+namespace game
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Prep2 World!");
+        static void Main(string[] args)
+        {
+            Console.Write("Enter number: ");
+            string valueFromUser = Console.ReadLine();
+
+            int x = 5;
+            int y = 2;
+            if (x > y)
+            {
+                Console.WriteLine("Greater than");
+            }
+            else if (x < y)
+            Console.WriteLine("less than");
+
+            else
+            {
+                Console.WriteLine("equal to");
+            }
+        }
     }
 }
