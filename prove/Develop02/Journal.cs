@@ -118,11 +118,3 @@ using System;
         System.Console.WriteLine("The Journal has been changed!");
     }
 }
-    
-
-        
-    
-
-
-
-
