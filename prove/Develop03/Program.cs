@@ -6,7 +6,7 @@ class Program
     {
     string differentScripture = "yes";
     while (differentScripture == "yes");
-// This asks the user to write a verse and continue to write until the user types quit.
+// This asks the user to write a verse as well as the scripture reference and continue to write verses until the user types quit.
         
         List<string>verses = new List<string>();
         System.Console.WriteLine("Please enter the scripture's reference. (for example John 3:16): ");
