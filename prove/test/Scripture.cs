@@ -5,8 +5,7 @@ class Scripture
     private string _scriptureReference;
 // This is a constructer that goes through each word and adds the word to the verse.
     private List<Verse> _verses = new List<Verse>();
-    // private bool _clear = false;
-
+    private bool _hidden = false;
     public Scripture(string scriptureReference, List<string> verses)
     {
         _scriptureReference = scriptureReference;
@@ -15,9 +14,10 @@ class Scripture
             Verse verse = new Verse(verseStr);
             _verses.Add(verse);
         }
-        // _clear = false;
+        _hidden = false;
     }
 
+// This displays the scripture on the screen.
     public void Display()
     {
         System.Console.WriteLine(_scriptureReference);
@@ -44,7 +44,7 @@ class Scripture
             failed = failed + 1;
             if (failed > 100)
             {
-            // _clear = true;
+                _hidden = true;
                 return false;
             }
         }
@@ -69,7 +69,7 @@ class Scripture
         foreach(Verse verse in _verses)
         {
             verse.Clear();
-            // _clear = true;
+            _hidden = true;
         }
         return true;
     }
