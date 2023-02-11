@@ -14,10 +14,12 @@ class Program
             };  
             
         Scripture scrip = new Scripture("ref", verses);
-        scrip.Display();
-        scrip.HideWords(3);
         Random randomGenerator = new Random();
+        scrip.HideWords(3);
+        scrip.Display();
+        
         int number = randomGenerator.Next(1, 99);
         scrip.IsAllHidden();
+        scrip.Clear();
     }
 }

@@ -25,7 +25,7 @@ class Verse
         foreach (Word word in _words)
         {
             word.Display();
-            System.Console.WriteLine(" ");
+            System.Console.Write(" ");
         }
         System.Console.WriteLine();
     }
@@ -44,7 +44,7 @@ class Verse
         _check = false;
         while (_check == false)
         {
-            Word word = new Word("");
+            Word word = new Word("_");
             int verseIndex = randomIndex();
             word = _words [verseIndex];
             count = count + 1;

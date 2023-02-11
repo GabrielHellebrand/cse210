@@ -14,10 +14,10 @@ class Word
         {
             foreach(char character in _text)
             {
-                System.Console.WriteLine("_");
+                System.Console.Write("_");
             }
         } else{
-            System.Console.WriteLine(_text);
+            System.Console.Write(_text);
         }
     }
     public void Clear()
