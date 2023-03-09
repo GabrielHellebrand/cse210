@@ -36,14 +36,13 @@ class Activity
     public void DisplayDelay(int delay)
     {
         int delta = 10;
-        double time = delay * 1000;
+        double time = delay * 0;
         while(time > 0)
         {
-            Thread.Sleep(delta);
+            Thread.Sleep(500);
             time -= delta;
+            System.Console.WriteLine("\u002f");
             System.Console.Write("\b\b");
-            
-
             Thread.Sleep(delta);
             time -= delta;
             System.Console.Write("\b\b");
