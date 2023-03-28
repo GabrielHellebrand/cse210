@@ -13,15 +13,15 @@ class Program
           videos.Add(video1);
 
           Video video2 = new Video("The time I drove drunk into a ditch and got away with it", "Jack Daniels", 380);
-          video1.Comments.Add(new Comment("Tyler Durden Is My Sensei", "You broke the third rule of Fight Club."));
-          video1.Comments.Add(new Comment("Shrek is my one and only", "Get out of my swamp."));
-          video1.Comments.Add(new Comment("Gandhi Approves This Message", "Boo your video sucks."));
+          video2.Comments.Add(new Comment("Tyler Durden Is My Sensei", "You broke the third rule of Fight Club."));
+          video2.Comments.Add(new Comment("Shrek is my one and only", "Get out of my swamp."));
+          video2.Comments.Add(new Comment("Gandhi Approves This Message", "Boo your video sucks."));
           videos.Add(video2);
 
           Video video3 = new Video("Elmo apologizes for doing all of the drugs", "Big Bird be pimpin", 400);
-          video1.Comments.Add(new Comment("My Name Is Heisenburg", "Shame on you Elmo."));
-          video1.Comments.Add(new Comment("Xavier", "#LifeGoals."));
-          video1.Comments.Add(new Comment("Tony Soprano", "Not again"));
+          video3.Comments.Add(new Comment("My Name Is Heisenburg", "Shame on you Elmo."));
+          video3.Comments.Add(new Comment("Xavier", "#LifeGoals."));
+          video3.Comments.Add(new Comment("Tony Soprano", "Not again"));
           videos.Add(video3);
         }
           // Iterate through the list of videos and display information about each one
