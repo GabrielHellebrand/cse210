@@ -15,18 +15,18 @@ class Program
 
         // Create products
         Product book = new Product("Book", "12345", 9.99);
-        Product pen = new Product("Pen", "67890", 1.99);
-        Product pencil = new Product("Pencil", "13579", 0.99);
+        Product movie = new Product("movie", "67890", 19.99);
+        Product videogame = new Product("videogame", "13579", 49.99);
 
         // Create orders
         List<Product> usaOrderProducts = new List<Product>();
         usaOrderProducts.Add(book);
-        usaOrderProducts.Add(pen);
+        usaOrderProducts.Add(movie);
         Order usaOrder = new Order(usaOrderProducts, usaCustomer);
 
         List<Product> canadaOrderProducts = new List<Product>();
         canadaOrderProducts.Add(book);
-        canadaOrderProducts.Add(pencil);
+        canadaOrderProducts.Add(videogame);
         Order canadaOrder = new Order(canadaOrderProducts, canadaCustomer);
 
         // Display packing labels, shipping labels, and total prices
