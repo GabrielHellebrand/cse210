@@ -6,7 +6,7 @@ class Program
     {
         List<Video> videos= new List<Video>();
         {
-          Video video1 = new Video("I ate donuts and Coffee for 30 days straight, here's what happened", "Tim Horton", 500);
+          Video video1 = new Video("I ate donuts and coffee for 30 days straight, here's what happened", "Tim Horton", 500);
           video1.Comments.Add(new Comment("Da Real Patrick Bateman", "First."));
           video1.Comments.Add(new Comment("Simpfever", "Follow my insta and you'll get a giftcard."));
           video1.Comments.Add(new Comment("JoeRogan420", "Have you tried DMT wth the donuts and coffee, it makes you see the elves."));  
@@ -18,7 +18,7 @@ class Program
           video2.Comments.Add(new Comment("Gandhi Approves This Message", "Boo your video sucks."));
           videos.Add(video2);
 
-          Video video3 = new Video("Elmo apologizes for doing all of the drugs", "Big Bird be pimpin", 400);
+          Video video3 = new Video("Elmo apologizes for doing all of the drugs", "Big Bird be pimpin yo", 400);
           video3.Comments.Add(new Comment("My Name Is Heisenburg", "Shame on you Elmo."));
           video3.Comments.Add(new Comment("Xavier", "#LifeGoals."));
           video3.Comments.Add(new Comment("Tony Soprano", "Not again"));
