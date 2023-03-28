@@ -6,8 +6,8 @@ class Program
     static void Main(string[] args)
     {
         // Create addresses
-        Address usaAddress = new Address("123 Hamburger St", "Anytown", "CA", "USA");
-        Address canadaAddress = new Address("456 Maple Ave", "Toronto", "ON", "Canada");
+        Address usaAddress = new Address("123 Steak St", "Pawnee", "IN", "USA");
+        Address canadaAddress = new Address("456 Maple Ave", "Brantford", "ON", "Canada");
 
         // Create customers
         Customer usaCustomer = new Customer("Ron Swanson", usaAddress);
