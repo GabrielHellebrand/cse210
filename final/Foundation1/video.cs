@@ -8,6 +8,7 @@ class Video
    public List<Comment> Comments {get; set;}
    
    public Video(string title, string author, int lengthInSeconds) 
+// This gets the title of the video, the author of the video, how long the video is and the list of comments.
    {
         Title = title;
         Author = author;
@@ -15,6 +16,7 @@ class Video
         Comments = new List<Comment>();
    } 
    public int GetCommentCount()
+// This counts the comments in each video.
    {
         return Comments.Count;
    }

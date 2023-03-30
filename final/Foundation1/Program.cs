@@ -3,6 +3,7 @@ using System;
 class Program
 {
     static void Main(string[] args)
+// This is a list of videos along with there corresponding comments.
     {
         List<Video> videos= new List<Video>();
         {
@@ -24,7 +25,7 @@ class Program
           video3.Comments.Add(new Comment("Tony Soprano", "Not again"));
           videos.Add(video3);
         }
-          // Iterate through the list of videos and display information about each one
+          // This Iterates through the list of videos and displays information about each video.
         foreach (Video video in videos)
         {
             Console.WriteLine("Title: {0}", video.Title);

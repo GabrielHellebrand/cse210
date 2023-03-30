@@ -5,12 +5,14 @@ class Customer
     public Address Address { get; set; }
 
     public Customer(string name, Address address)
+// This gets the name and address of the customer.
     {
         Name = name;
         Address = address;
     }
 
     public bool IsInUSA()
+// This checks if the customer is in the US or in another country.
     {
         return Address.IsInUSA();
     }

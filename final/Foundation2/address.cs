@@ -7,6 +7,7 @@ class Address
     private string Country { get; set; }
 
     public Address(string streetAddress, string city, string stateProvince, string country)
+// This gets the address of the person the stuff is being delivered to.
     {
         StreetAddress = streetAddress;
         City = city;
@@ -15,6 +16,7 @@ class Address
     }
 
     public bool IsInUSA()
+// This checks if the address is in America or in another country.
     {
         return Country == "USA";
     }
